@@ -1,0 +1,23 @@
+package practice;
+
+public class Employee 
+{
+
+    String name;
+    String section;
+    int marks;
+    String collegename;
+	public Employee(String name, String section, int marks, String collegename) {
+		super();
+		this.name = name;
+		this.section = section;
+		this.marks = marks;
+		this.collegename = collegename;
+	}
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", section=" + section + ", marks=" + marks + ", collegename=" + collegename
+				+ "]";
+	}
+    
+}
