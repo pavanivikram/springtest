@@ -1,0 +1,19 @@
+package practice3;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+
+@Configuration
+public class Config1 
+{
+	   @Bean
+	   public Classone classone1()
+	   {
+		   Classone o=new Classone("aaa",10,"zzz",500);
+		   return o;
+	   }
+
+	
+	
+}
