@@ -1,0 +1,25 @@
+package practice3;
+
+public class Classone 
+{
+	String name;
+	int players;
+	String stadium_name;
+	int stadium_strength;
+	public Classone(String name, int players, String stadium_name, int stadium_strength) {
+		super();
+		this.name = name;
+		this.players = players;
+		this.stadium_name = stadium_name;
+		this.stadium_strength = stadium_strength;
+	}
+	@Override
+	public String toString() {
+		return "Classone [name=" + name + ", players=" + players + ", stadium_name=" + stadium_name
+				+ ", stadium_strength=" + stadium_strength + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ ", toString()=" + super.toString() + "]";
+	}
+	
+	
+    
+}
